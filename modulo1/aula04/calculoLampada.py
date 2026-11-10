@@ -11,4 +11,6 @@ m2ilum = m2 / 3
 if pot < 3:
     print(f'Potência insuficiente para iluminar o cômodo.')
 else:
+
     print(f'São necessárias {int(m2ilum)} lâmpadas')
+    
