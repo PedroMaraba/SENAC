@@ -1,9 +1,9 @@
    
-for i in range(2):
+for i in range(10):
     Nome = input(f'Digite o nome do {i + 1}° aluno: ')
     notaAva1 = int(input('Digite a nota da primeira avaliação: '))
     notAva2 = int(input('Digite a nota da segunda avaliação: '))
-    notaOpt= int(input('Digite a nota davaliação optativa, caso não tenha feito, digite "-1": '))
+    notaOpt= int(input('Digite a nota da avaliação optativa, caso não tenha feito, digite "-1": '))
 
     print(f'Aluno: {Nome}')
 
