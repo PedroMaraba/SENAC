@@ -55,3 +55,4 @@ match pergunta:
         print('Dia das Massas, com rodízio e descontos é toda quarta-feira!')
     case _: 
         print('Categoria não encontrada!')
+        

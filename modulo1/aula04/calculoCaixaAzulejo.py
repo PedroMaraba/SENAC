@@ -28,4 +28,3 @@ if resultado != int(resultado):
     print(f'Serão necessários {int(resultado)} caixas de azulejo, e irá sobrar alguns azulejos. ')
 else:
     print(f'Serão necessários {int(resultado)} caixas de azulejo.')
-

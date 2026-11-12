@@ -23,4 +23,3 @@ match codigo:
     case _:
         print('Produto importado. ')
         
-

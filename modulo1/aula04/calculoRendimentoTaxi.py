@@ -24,5 +24,3 @@ lucroLiquido = dinheiroRecebido - litrosGasolina * valorGasolina
 
 # imprimindo o rendimento para o usuário
 print(f'O consumo de gasolina por quilometro é de {mediaGasolina}, e o lucro líquido do dia é:R${lucroLiquido}')
-
-
