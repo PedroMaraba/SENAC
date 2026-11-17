@@ -23,13 +23,43 @@ for i in range(0,3):
         else: 
             if notaAva1 > notAva2: 
                 media = (notaAva1 + notaOpt) / 2
+                if media < 3:
+                    print('Reprovado!')
+                    print(f'A MÉDIA É {media}')
+                elif media >=3 and media <= 6:
+                    lista_alunos.append("Recuperação")
+                    print('Recuperação!')
+                    print(f'A MÉDIA É {media}')
+                else:
+                    lista_alunos.append("Aprovado")
+                    print('Aprovado!')
+                    print(f'A MÉDIA É {media}')
 
-                print(f'A MÉDIA É {media}')
             elif notaAva1 == notAva2:
-                media = (notaAva1 + notaOpt) / 2
-                print(f'A MÉDIA É {media}')
+                media = (notaAva1 + notAva2) / 2
+                if media < 3:
+                    print('Reprovado!')
+                    print(f'A MÉDIA É {media}')
+                elif media >=3 and media <= 6:
+                    lista_alunos.append("Recuperação")
+                    print('Recuperação!')
+                    print(f'A MÉDIA É {media}')
+                else:
+                    lista_alunos.append("Aprovado")
+                    print('Aprovado!')
+                    print(f'A MÉDIA É {media}')
             else: 
                 media = (notAva2 + notaOpt) / 2
-                print(f'A MÉDIA É {media}')
+                if media < 3:
+                    print('Reprovado!')
+                    print(f'A MÉDIA É {media}')
+                elif media >=3 and media <= 6:
+                    lista_alunos.append("Recuperação")
+                    print('Recuperação!')
+                    print(f'A MÉDIA É {media}')
+                else:
+                    lista_alunos.append("Aprovado")
+                    print('Aprovado!')
+                    print(f'A MÉDIA É {media}')
                 
 print(lista_alunos)

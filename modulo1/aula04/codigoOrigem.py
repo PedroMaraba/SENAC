@@ -11,13 +11,13 @@ match codigo:
         print('a origem do produto é: Leste')
     case 4:
         print('a origem do produto é: Oeste')
-    case 5:
+    case 5 | 6 :
         print('a origem do produto é: Nordeste')
-    case 6:
+    case 7|8|9:
         print('a origem do produto é: Sudeste')
-    case 7:
+    case 10:
         print('a origem do produto é: Centro-Oeste')
-    case 8:
+    case 11:
         print('a origem do produto é: Noroeste')
 
     case _:
